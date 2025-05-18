@@ -14,7 +14,6 @@ if($user){
     header('Location: home.php');
     exit();
 } else {
-    // Redirect ke index.php dengan parameter error
     header('Location: index.php?error=1');
     exit();
 }
